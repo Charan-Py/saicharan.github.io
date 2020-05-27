@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: librebaskerville-bold, serif;
+}
+.navbar {
+  text-transform: uppercase;
+  /*font-family: librebaskerville-bold, serif;*/
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link .active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+}
+.caption h1 {
+  font-weight: 500;
+  font-size: 3.8rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+#home {
+  background: url(../images/computers.png) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+#contact {
+  background: url(../images/computers.png) no-repeat center center fixed;
+  display: table;
+  height: 80%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.cm h1 {
+  /*font-family: librebaskerville-bold, serif;*/
+  color: #1ebba3;
+  text-align: center;
+}
+.address h5 {
+  /*font-family: librebaskerville-bold, serif;*/
+  font-weight: 300;
+  color: white;
+}
+.address p {
+  /*font-family: librebaskerville-bold, serif;*/
+  color: aqua;
+}
+
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin,
+.fa-map-marker-alt,
+.fa-phone-alt,
+.fa-telegram-plane,
+.fa-envelope:before {
+  font-size: 15px;
+}
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  height: 60px;
+  background-color: black;
+  color: gray;
+}
